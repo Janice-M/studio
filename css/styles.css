@@ -19,6 +19,13 @@ body, html {
   color: white;
 }
 
+.services {
+  padding: 60px;
+  background-image: url("../assets/backgrounds/s_image.jpg");
+  text-align: center;
+  color: white;
+}
+
 h1 {
     font-size: 64px;
 }
