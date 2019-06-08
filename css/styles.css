@@ -33,6 +33,10 @@ img {
   color: white;
 }
 
+.about {
+  text-align: center;
+}
+
 .whatwedo {
   padding: 60px;
   text-align: center;
@@ -42,10 +46,41 @@ img {
   text-align: center;
 }
 
-h1 {
-    font-size: 64px;
+.contacts {
+  padding: 60px;
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  text-align: center;
+  color: white;
 }
 
-.about {
-  text-align: center;
+h1 {
+  font-size: 64px;
+}
+
+.contact_inputs_1 {
+  float: right;
+}
+
+.contact_inputs_2 {
+  float: left;
+}
+
+.contact_inputs_3 {
+  border:  1px solid #fff;
+}
+
+.contact_inputs_1, .contact_inputs_2 {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #fff;
+}
+
+.contacts .btn {
+  background-color: #0ff;
+  margin-left: 58%;
+  border-radius: 0;
+}
+
+.contacts .btn:hover {
+  background: #2199e8;
 }
