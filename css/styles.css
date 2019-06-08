@@ -26,6 +26,11 @@ body, html {
   color: white;
 }
 
+.whatwedo {
+  padding: 60px;
+  text-align: center;
+}
+
 h1 {
     font-size: 64px;
 }
