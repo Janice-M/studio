@@ -12,6 +12,13 @@ body, html {
   height: 100%;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .header {
   padding: 60px;
   background-image: url("../assets/backgrounds/h_img.jpg");
@@ -28,6 +35,10 @@ body, html {
 
 .whatwedo {
   padding: 60px;
+  text-align: center;
+}
+
+.portfolio {
   text-align: center;
 }
 
