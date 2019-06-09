@@ -136,7 +136,7 @@ $(document).ready(function() {
   $('#submitButton').click(function() {
     var name = $('#id_number2').val();
     if ($('#id_number2').val().length > 3) {
-      alert(name + ", Thank you for your submission");
+      alert(name + ", thank you! your submission is well received.");
     } else {
       alert( "Error");
     };
