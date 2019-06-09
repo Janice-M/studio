@@ -131,16 +131,15 @@ $(document).ready(function() {
         "opacity": "0"
       }, 350);
     });
-  $('div.input-error').hide();
-  $('div.input-success').hide();
+
+
   $('#submitButton').click(function() {
-    if ($('#id_number1').val().length > 3) {
-      $('div.input-success').show();
-      $('div.input-error').hide();
+    var name = $('#id_number2').val();
+    if ($('#id_number2').val().length > 3) {
+      alert(name + ", Thank you for your submission");
     } else {
-      $('div.input-error').show();
-      $('div.input-success').hide();
-    }
+      alert( "Error");
+    };
   });
 
 
