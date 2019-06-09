@@ -37,72 +37,111 @@ $(document).ready(function() {
   });
 
   $('.wBox.1').hover(
-  function() {
-    $(".wBox.1 h4").stop().animate({"opacity": "1"}, 350);
-  },
-  function() {
-    $(".wBox.1 h4").stop().animate({"opacity": "0"}, 350);
-  });
+    function() {
+      $(".wBox.1 h4").stop().animate({
+        "opacity": "1"
+      }, 350);
+    },
+    function() {
+      $(".wBox.1 h4").stop().animate({
+        "opacity": "0"
+      }, 350);
+    });
 
   $('.wBox.2').hover(
-  function() {
-    $(".wBox.2 h4").stop().animate({"opacity": "1"}, 350);
-  },
-  function() {
-    $(".wBox.2 h4").stop().animate({"opacity": "0"}, 350);
-  });
+    function() {
+      $(".wBox.2 h4").stop().animate({
+        "opacity": "1"
+      }, 350);
+    },
+    function() {
+      $(".wBox.2 h4").stop().animate({
+        "opacity": "0"
+      }, 350);
+    });
 
   $('.wBox.3').hover(
-  function() {
-    $(".wBox.3 h4").stop().animate({"opacity": "1"}, 350);
-  },
-  function() {
-    $(".wBox.3 h4").stop().animate({"opacity": "0"}, 350);
-  });
+    function() {
+      $(".wBox.3 h4").stop().animate({
+        "opacity": "1"
+      }, 350);
+    },
+    function() {
+      $(".wBox.3 h4").stop().animate({
+        "opacity": "0"
+      }, 350);
+    });
 
   $('.wBox.4').hover(
-  function() {
-    $(".wBox.4 h4").stop().animate({"opacity": "1"}, 350);
-  },
-  function() {
-    $(".wBox.4 h4").stop().animate({"opacity": "0"}, 350);
-  });
+    function() {
+      $(".wBox.4 h4").stop().animate({
+        "opacity": "1"
+      }, 350);
+    },
+    function() {
+      $(".wBox.4 h4").stop().animate({
+        "opacity": "0"
+      }, 350);
+    });
 
   $('.wBox.5').hover(
-  function() {
-    $(".wBox.5 h4").stop().animate({"opacity": "1"}, 350);
-  },
-  function() {
-    $(".wBox.5 h4").stop().animate({"opacity": "0"}, 350);
-  });
+    function() {
+      $(".wBox.5 h4").stop().animate({
+        "opacity": "1"
+      }, 350);
+    },
+    function() {
+      $(".wBox.5 h4").stop().animate({
+        "opacity": "0"
+      }, 350);
+    });
 
   $('.wBox.6').hover(
-  function() {
-    $(".wBox.6 h4").stop().animate({"opacity": "1"}, 350);
-  },
-  function() {
-    $(".wBox.6 h4").stop().animate({"opacity": "0"}, 350);
-  });
+    function() {
+      $(".wBox.6 h4").stop().animate({
+        "opacity": "1"
+      }, 350);
+    },
+    function() {
+      $(".wBox.6 h4").stop().animate({
+        "opacity": "0"
+      }, 350);
+    });
 
   $('.wBox.7').hover(
-  function() {
-    $(".wBox.7 h4").stop().animate({"opacity": "1"}, 350);
-  },
-  function() {
-    $(".wBox.7 h4").stop().animate({"opacity": "0"}, 350);
-  });
+    function() {
+      $(".wBox.7 h4").stop().animate({
+        "opacity": "1"
+      }, 350);
+    },
+    function() {
+      $(".wBox.7 h4").stop().animate({
+        "opacity": "0"
+      }, 350);
+    });
 
   $('.wBox.8').hover(
-  function() {
-    $(".wBox.8 h4").stop().animate({"opacity": "1"}, 350);
-  },
-  function() {
-    $(".wBox.8 h4").stop().animate({"opacity": "0"}, 350);
+    function() {
+      $(".wBox.8 h4").stop().animate({
+        "opacity": "1"
+      }, 350);
+    },
+    function() {
+      $(".wBox.8 h4").stop().animate({
+        "opacity": "0"
+      }, 350);
+    });
+  $('div.input-error').hide();
+  $('div.input-success').hide();
+  $('#submitButton').click(function() {
+    if ($('#id_number1').val().length > 3) {
+      $('div.input-success').show();
+      $('div.input-error').hide();
+    } else {
+      $('div.input-error').show();
+      $('div.input-success').hide();
+    }
   });
-
-
-
-
 
 
 
