@@ -133,20 +133,16 @@ $(document).ready(function() {
     });
 
 
-  $('#submitButton').click(function() {
+  $('#submitButton').click(function(event) {
+      event.preventDefault();
     var name = $('#id_number2').val();
     if ($('#id_number2').val().length > 3) {
       alert(name + ", thank you! your submission is well received.");
     } else {
-      alert( "Error");
+      alert("Error");
     };
+
   });
-
-
-
-
-
-
 
 
 
