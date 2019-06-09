@@ -27,6 +27,17 @@ $(document).ready(function() {
     $(".whatwedo p.three").toggle();
   });
 
+  $('.whatwedo h3').click(function() {
+    $(".whatwedo img.one").toggle();
+    $(".whatwedo p.one").toggle();
+  });
+  $('.whatwedo h3').click(function() {
+  $(".whatwedo img.one").toggle();
+  $(".whatwedo p.one").toggle();
+  });
+
+
+
   $('.portfolio .col-3').hover(function() {
 
   });
