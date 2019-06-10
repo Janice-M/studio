@@ -1,4 +1,4 @@
-# Delani Studios
+# Delani Studio
 
 #### By **Janice Mukenyi Muia**
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-Delani studios is a web platform  that helps software engineers do  collaborative web development work.Our approach unifies design, development and
+Delani studio is a web platform  that helps software engineers do  collaborative web development work.Our approach unifies design, development and
 product management to create exceptional products.
 We start each project by understanding your business goals,
 the user's needs and the product requirements.
